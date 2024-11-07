@@ -1,4 +1,4 @@
-module golang.org/x/crypto
+module github.com/GaneshKumarGk/crypto
 
 go 1.20
 
@@ -9,3 +9,5 @@ require (
 )
 
 require golang.org/x/text v0.19.0 // indirect
+
+replace golang.org/x/crypto => github.com/GaneshKumarGk/crypto v0.28.0
